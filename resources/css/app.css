@@ -1,0 +1,20 @@
+@import 'bootstrap';
+@import "bootstrap-icons";
+
+body{
+    color: #ffff;
+    min-height: 100vh;
+    background-color: #343D3F;
+    font-family: "Bitter", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.bg-principale{
+    background-color: #343D3F;
+}
+
+.navbar{
+    border-bottom: 1px solid white;
+}
