@@ -5,9 +5,8 @@ body{
     color: #ffff;
     min-height: 100vh;
     background-color: #343D3F;
-    font-family: "Bitter", serif;
-    font-optical-sizing: auto;
-    font-weight: 500;
+    font-family: "Special Gothic", sans-serif;
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -17,4 +16,38 @@ body{
 
 .navbar{
     border-bottom: 1px solid white;
+}
+
+.offcanvas li{
+    text-decoration: none;
+    list-style: none;
+    padding: 0;
+}
+
+.btn-register{
+    border: white 2px solid;
+    color: white;
+}
+.btn-register:hover{
+    border: white 2px solid;
+    color: white;
+    transition: all 0.3s linear;
+    transform: scale(0.98);
+}
+.btn-register:active{
+    border: white 2px solid;
+    color: white;
+    transition: all 0.3s linear;
+    transform: scale(0.96);
+}
+
+.text-user{
+    color: blue;
+}
+
+.users-table{
+    
+}
+.users-table td{
+
 }
